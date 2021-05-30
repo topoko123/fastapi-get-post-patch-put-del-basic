@@ -14,6 +14,12 @@ python -m pip install -r requirements.txt
 
 ```
 
+### คำสั่งในการรันตัวเซิร์ฟเวอร์ด้วย Uvicorn
+
+```sh
+uvicorn main:app --reload
+```
+
 ## Notice
 - #### เป็นเพียงวิธีการใช้งาน HTTP Method แบบพื้นฐานใน FastAPI
 
